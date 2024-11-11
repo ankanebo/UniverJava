@@ -24,6 +24,7 @@ public class StudentNextPrevious {
     }
     void setNext(StudentNextPrevious st){
         this.next = st;
+        st.previous = this;
     }
     StudentNextPrevious getNext(){
         return next;
